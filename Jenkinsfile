@@ -1,7 +1,7 @@
 pipeline {
     	agent any
 	tools {
-		maven 'maven-3.8.6'
+		maven 'MAVEN_HOME'
 		jdk 'JAVA_HOME'
 	}
 	options {
